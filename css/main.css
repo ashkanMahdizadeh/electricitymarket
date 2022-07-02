@@ -340,3 +340,14 @@ ul {
 .footer p {
   line-height: 2.5;
 }
+
+.owl-stage-outer .item{
+  background-color: red;
+  padding: 3rem;
+}
+.owl-carousel {
+  margin: 4rem 0;
+}
+.owl-nav , .owl-dots {
+  display: none;
+}

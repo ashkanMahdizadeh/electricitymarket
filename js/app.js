@@ -87,6 +87,7 @@ $(document).ready(function(){
         loop:true,
         margin:10,
         responsiveClass:true,
+        rtl:true,
         responsive:{
             0:{
                 items:1,
