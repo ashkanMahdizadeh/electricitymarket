@@ -4,6 +4,9 @@
 .contact{
     margin: 3rem 0;
 }
+.form-input label {
+    margin: 1rem 0;
+}
 .form-input , .submit{
     margin-top: 2rem;
 }
