@@ -37,7 +37,7 @@ $('.logoslider').owlCarousel({
   rtl:true,
 });
 $('.mainslider').owlCarousel({
-  items:4,
+  items:3,
   mouseDrag:true,
   loop:true,
   nav:true,

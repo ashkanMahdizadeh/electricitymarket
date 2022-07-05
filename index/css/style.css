@@ -436,6 +436,7 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0px 6px;
 }
 .cats-item img {
     padding: 15px;
@@ -459,6 +460,19 @@ footer{
 .cats-item span:hover{
     color: #f5f6f6;
     background-color: #292931;
+}
+.categoryslider{
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+.Banner{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+.Banner img{
+    border-radius: 50px 50px 20px 20px;
+    margin: 0px 13px;
 }
 
 @media screen and (max-width: 760px) {
