@@ -56,6 +56,43 @@ $('.categoryslider').owlCarousel({
   autoplayTimeout:4000,
   rtl:true,
 });
+$('.productslider').owlCarousel({
+  items:5,
+  mouseDrag:true,
+  loop:true,
+  nav:true,
+  rewind:true,
+  autoplay:false,
+  rtl:true,
+});
+$('.lampslider').owlCarousel({
+  items:6,
+  mouseDrag:true,
+  loop:false,
+  nav:true,
+  rewind:true,
+  autoplay:false,
+  rtl:true,
+});
+$('.multislider').owlCarousel({
+  items:3,
+  mouseDrag:true,
+  loop:true,
+  nav:true,
+  rewind:true,
+  autoplay:true,
+  autoplayTimeout:4000,
+  rtl:true,
+});
+$('.bannerslider').owlCarousel({
+  items:1,
+  mouseDrag:true,
+  loop:true,
+  nav:true,
+  rewind:true,
+  autoplay:false,
+  rtl:true,
+});
 
 $(document).ready(function(){
   $(".owl-carousel").owlCarousel();
