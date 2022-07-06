@@ -391,17 +391,39 @@ ul {
 .contact{
   margin: 3rem 0;
 }
-.form-input label {
+.contact .form-input label {
   margin: 1rem 0;
 }
-.form-input , .submit{
+.contact .form-input , .submit{
   margin-top: 2rem;
 }
-.form-input input ,textarea{
+.contact .form-input input ,textarea{
   width: 100%;
   padding: 1rem;
 }
 .submit{
   width: 100%;
   padding: 2rem;
+}
+
+
+/* Register page */
+.content h1 {
+  margin: 3rem 0;
+}
+.content form .heading {
+  border-bottom: 1px solid black;
+  font-size: 1.4em;
+  padding: 1rem 0;
+}
+.content form .form-group label , .content form .form-group input {
+  margin: 1rem 0;
+}
+.content form .form-group label{
+  text-align: left;
+  padding: 1rem;
+}
+.content form .form-group input{
+  border: none;
+  padding: 1rem;
 }
