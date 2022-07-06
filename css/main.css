@@ -382,3 +382,26 @@ ul {
   padding-top: 3rem;
   border-top: 2px solid #00000026;
 }
+
+
+/* contact page */
+.image{
+  background-color: red;
+}
+.contact{
+  margin: 3rem 0;
+}
+.form-input label {
+  margin: 1rem 0;
+}
+.form-input , .submit{
+  margin-top: 2rem;
+}
+.form-input input ,textarea{
+  width: 100%;
+  padding: 1rem;
+}
+.submit{
+  width: 100%;
+  padding: 2rem;
+}
