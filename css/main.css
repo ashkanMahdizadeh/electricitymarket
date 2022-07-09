@@ -45,7 +45,12 @@ ul {
 .mt-1 {
   margin-top: 2rem;
 }
-
+.badge-danger{
+  background-color: rgb(186, 0, 0);
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  font-size: 0.8em;
+}
 /* header section */
 .header {
   background-color: #ffcb37;
@@ -426,4 +431,5 @@ ul {
 .content form .form-group input{
   border: none;
   padding: 1rem;
+  width: 100%;
 }

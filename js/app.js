@@ -81,7 +81,6 @@ $(document).ready(function(){
     })
 
 
-
     // owl slider
     $('.owl-carousel').owlCarousel({
         loop:true,
@@ -104,4 +103,5 @@ $(document).ready(function(){
             }
         }
     })
+
 });
