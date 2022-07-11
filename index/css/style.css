@@ -250,7 +250,7 @@ nav{
     border: #2D2C30 2px solid;
     border-radius: 34px;
     padding-right: 22px;
-    width: 30%;
+    width: 65%;
     background: none;
     outline: none;
 }
@@ -259,6 +259,13 @@ nav{
     flex-direction: column;
     align-items: center;
     padding: 0px 13px;
+}
+.eb-input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
 }
 .EB-text h4{
     font-size: 15px;
@@ -601,6 +608,8 @@ footer{
     flex-direction: row;
     justify-content: center;
     background-color: #ffcb36;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 .bannerslider {
     width: 50% !important;
@@ -630,7 +639,7 @@ footer{
     height: 290px;
 }
 .image{
-    width: 30%;
+    width: 40%;
 }
 .caption{
     width: 70%;
@@ -696,25 +705,18 @@ footer{
 }
 .cdb-price{
     color: #ffffff;
-    font-weight: 500;
-    font-size: 16px;
-    font-size: 1.6rem;
-    height: 46px;
     position: relative;
+    top: 10px;
+    right: 45%;
 }
 .cdb-price span{
     background-color: #f55;
     font-weight: 400;
-    top: -10px;
-    left: 0;
-    right: auto;
     border-radius: 0 25px 25px 0;
-    width: unset;
-    height: unset;
-    padding: 0 10px;
-    border: 8px solid #fff;
+    padding: 5px 12px;
+    border: 6px solid #fff;
     border-left: 0;
-    font-size: 16px;
+    font-size: 13px;
 }
 
 @media screen and (max-width: 760px) {
@@ -754,6 +756,68 @@ footer{
    .nav2 img{
     display: inline;
    }
+   #banner-pic2{
+    display: none;
+   }
+   #banner-pic1{
+    width: 100%;
+    height: 100%;
+   }
+   .Banner a {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+   }
+   .Banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   #banner-pic7{
+    display: none;
+   }
+   .MB-text h4 {
+    font-size: 16px;
+   }
+   .bannerslider {
+     width: 100% !important;
+    }
+    .paragraph span {
+        font-size: 16px;
+        padding: 6px 20px 50px 20px;
+    }
+    .design-logo{
+        padding-bottom: 20px;
+    }
+    .contentslider {
+        width: 95%;
+    }
+ 
+    .discount-count-down{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+    }
+    .countdown-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background: none;
+    border: none;
+    color: #111;
+    }
+    .cdb-time{
+        color: #111;
+    }
+    .caption{
+        width: 100%;
+    }
+    .cdb-price{
+        right: 43%;
+    }
    
 }
 @media screen and (max-width: 993px){
@@ -770,4 +834,32 @@ footer{
     aside{
         display: none;
     }
+}
+@media screen and (max-width: 1110px) {
+    .eshtrak-box {
+        flex-direction: column;
+        width: 80%;
+    }
+    .eb-input{
+        display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    }
+    .eshtrak-box input{
+        width: 50%;
+        position: relative;
+        right: 30px;
+    }
+    .eshtrak-box img{
+        padding: 15px 2px;
+    }
+    .eshtrak-box button{
+        left: 28px;
+    }
+}
+@media screen and (max-width: 766px) {
+    .bannerslider {
+        width: 100% !important;
+       }
 }
