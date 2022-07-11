@@ -625,6 +625,97 @@ footer{
     height: 475px;
     width: 587px;
 }
+.image img {
+    width: 290px;
+    height: 290px;
+}
+.image{
+    width: 30%;
+}
+.caption{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.caption a {
+    color: #292931;
+    text-decoration: none;
+    margin: 35px 0px;
+}
+.caption h5{
+    font-size: 20px;
+    color: #e10000;
+    margin: 10px 0px;
+}
+.caption h6{
+    font-size: 15px;
+    text-decoration: line-through;
+}
+
+.discount-count-down{
+    background-image:url(../pic/deals-bg.png) !important;
+    background: #f5f6f6;
+    background-repeat: no-repeat;
+    background-position: left 0% top 0;
+    background-size: 570px;
+    background-blend-mode: luminosity;
+    border-radius: 45px 45px 20px 20px;
+    border: 4px solid #ffcb36;
+    border-top: 0;
+    margin-right: 30px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 100px;
+    margin-bottom: 20px;
+}
+.countdown-box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto 0px !important;
+    border-radius: 0 0 45px 45px;
+    background: #292931;
+    color: #ffcb36;
+    border: 14px solid #fff;
+    border-top: 0px;
+    padding: 8px 27px;
+    width: 30%;
+    align-items: center;
+}
+.cdb-time{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.cdb-time p {
+    margin: 10px 10px;
+}
+.cdb-price{
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    font-size: 1.6rem;
+    height: 46px;
+    position: relative;
+}
+.cdb-price span{
+    background-color: #f55;
+    font-weight: 400;
+    top: -10px;
+    left: 0;
+    right: auto;
+    border-radius: 0 25px 25px 0;
+    width: unset;
+    height: unset;
+    padding: 0 10px;
+    border: 8px solid #fff;
+    border-left: 0;
+    font-size: 16px;
+}
 
 @media screen and (max-width: 760px) {
    header nav {
