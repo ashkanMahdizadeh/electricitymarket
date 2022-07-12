@@ -723,6 +723,29 @@ footer{
     flex-direction: row;
     align-items: center;
 }
+.section3 aside a img {
+    width: 88%;
+    height: 100%;
+    object-fit: cover;
+    margin: 24px 17px;
+    border-radius: 55px 55px 25px 25px;
+}
+.pps-text img{
+    width: 30px;
+    height: 30px;
+    margin-left:12px;
+}
+.pps-text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 13px;
+    border-bottom: 1px solid #dfdfdf;
+    padding-bottom: 10px;
+}
+.pps-text h3{
+    font-size: 16px;
+}
 
 @media screen and (max-width: 760px) {
    header nav {
