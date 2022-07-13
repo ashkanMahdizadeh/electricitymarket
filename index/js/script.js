@@ -15,6 +15,20 @@ function openNav() {
     rewind:true,
     autoplay:false,
     rtl:true,
+    responsive:{
+      0:{
+          items:1,
+          nav:true
+      },
+      600:{
+          items:1,
+          nav:false
+      },
+      1000:{
+          items:1,
+          nav:true,
+      }
+    }
 });
 $('.footerslider').owlCarousel({
   items:4,
@@ -37,7 +51,6 @@ $('.footerslider').owlCarousel({
     1000:{
         items:4,
         nav:true,
-        loop:false
     }
   }
 });
@@ -56,13 +69,12 @@ $('.logoslider').owlCarousel({
         nav:true
     },
     600:{
-        items:5,
+        items:4,
         nav:false
     },
     1000:{
         items:11,
         nav:true,
-        loop:false
     }
   }
 });
@@ -87,17 +99,16 @@ $('.categoryslider').owlCarousel({
   rtl:true,
   responsive:{
     0:{
-        items:3,
+        items:2,
         nav:true
     },
     600:{
-        items:4,
+        items:3,
         nav:false
     },
     1000:{
         items:6,
         nav:true,
-        loop:false
     }
   }
 });
@@ -111,17 +122,16 @@ $('.productslider').owlCarousel({
   rtl:true,
   responsive:{
     0:{
-        items:3,
+        items:2,
         nav:true
     },
     600:{
-        items:4,
+        items:3,
         nav:false
     },
     1000:{
         items:5,
         nav:true,
-        loop:false
     }
   }
 });
@@ -135,17 +145,16 @@ $('.lampslider').owlCarousel({
   rtl:true,
   responsive:{
     0:{
-        items:3,
+        items:2,
         nav:true
     },
     600:{
-        items:4,
+        items:3,
         nav:false
     },
     1000:{
         items:6,
         nav:true,
-        loop:false
     }
   }
 });
@@ -158,6 +167,20 @@ $('.multislider').owlCarousel({
   autoplay:true,
   autoplayTimeout:4000,
   rtl:true,
+  responsive:{
+    0:{
+        items:2,
+        nav:true
+    },
+    600:{
+        items:2,
+        nav:false
+    },
+    1000:{
+        items:3,
+        nav:true,
+    }
+  }
 });
 $('.bannerslider').owlCarousel({
   items:1,
@@ -167,6 +190,20 @@ $('.bannerslider').owlCarousel({
   rewind:true,
   autoplay:false,
   rtl:true,
+  responsive:{
+    0:{
+        items:1,
+        nav:true
+    },
+    600:{
+        items:1,
+        nav:false
+    },
+    1000:{
+        items:1,
+        nav:true,
+    }
+  }
 });
 
 $(document).ready(function(){
